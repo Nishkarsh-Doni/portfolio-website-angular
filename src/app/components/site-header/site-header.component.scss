@@ -1,0 +1,64 @@
+.topbar {
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 120px);
+  max-width: 1840px;
+  margin: auto;
+  padding: 0;
+  border-bottom: 1px solid var(--line);
+}
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  font: 500 14px var(--mono);
+  text-decoration: none;
+  letter-spacing: -0.04em;
+}
+.mark {
+  display: grid;
+  place-items: center;
+  width: 29px;
+  height: 29px;
+  color: var(--bg);
+  background: var(--lime);
+  font: 700 11px var(--mono);
+  border-radius: 50%;
+}
+.muted {
+  color: var(--muted);
+}
+.desktop-nav {
+  display: flex;
+  gap: 34px;
+  margin-left: 100px;
+}
+.desktop-nav a,
+.github-link {
+  color: var(--muted);
+  text-decoration: none;
+  font: 12px var(--mono);
+  transition: 0.2s;
+}
+.desktop-nav a:hover,
+.github-link:hover {
+  color: var(--lime);
+}
+.github-link {
+  color: var(--text);
+}
+.github-dot {
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  border-radius: 50%;
+  background: var(--lime);
+  margin-right: 8px;
+}
+.arrow {
+  color: var(--lime);
+  margin-left: 4px;
+}
