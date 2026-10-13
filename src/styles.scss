@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
 
+:root {
+  --bg: #091112;
+  --panel: #101b1c;
+  --text: #e8eee8;
+  --muted: #8b9a96;
+  --line: #263433;
+  --lime: #c5f36a;
+  --purple: #9f8cff;
+  --mono: "DM Mono", monospace;
+}
+
 * {
   box-sizing: border-box;
 }

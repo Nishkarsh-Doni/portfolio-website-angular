@@ -49,6 +49,8 @@
 }
 .github-link {
   color: var(--text);
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 .github-dot {
   width: 7px;
@@ -61,4 +63,33 @@
 .arrow {
   color: var(--lime);
   margin-left: 4px;
+}
+
+@media (max-width: 1100px) and (min-width: 801px) {
+  .topbar {
+    width: calc(100% - 48px);
+  }
+
+  .desktop-nav {
+    gap: 22px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .topbar {
+    width: calc(100% - 40px);
+    min-height: 76px;
+  }
+
+  .wordmark {
+    min-width: 0;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .desktop-nav,
+  .github-link {
+    display: none;
+  }
 }
